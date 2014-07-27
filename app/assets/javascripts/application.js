@@ -10,7 +10,43 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery
+
+//= require jquery.min
 //= require jquery_ujs
-//= require turbolinks
+//= require modernizr-2.6.2-respond-1.1.0.min
+//= require bootstrap.min
+//= require jquery.navgoco
+//= require jquery.backstretch
+//= require owl.carousel.min
+//= require main
 //= require_tree .
+
+$(document).ready(function(){ 
+
+  $.backstretch([
+          "images/header1.jpg",
+          "images/header2.jpg"
+          
+          ], {
+            fade: 400,
+            duration: 5000
+        });
+});
+    //Home Work Carousel
+      var owl = $("#work-carousel");
+
+      owl.owlCarousel({
+      items : 2, //10 items above 1000px browser width
+      itemsDesktop : [1000,2], //5 items between 1000px and 901px
+      itemsDesktopSmall : [900,2], // betweem 900px and 601px
+      itemsTablet: [600,1], //2 items between 600 and 0
+      itemsMobile : [0,1], // itemsMobile disabled - inherit from itemsTablet option
+      navigation : false,
+      pagination : true,
+      autoHeight : true
+      });     
+
+
+
+      
+

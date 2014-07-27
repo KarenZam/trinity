@@ -11,6 +11,13 @@
  * file per style scope.
  *
 
+ *= require animate
+ *= require owl.carousel
+ *= require bootstrap.min
+ *= require main
+ *= require blue
+ *= require custom-styles
+
  *= require_tree .
  *= require_self
  */
