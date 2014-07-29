@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   
-  root 'site#index'
+  root 'site#index2'
 
-  get 'index2' => 'site#index2', as: :index2
+  get 'index' => 'site#index', as: :index
   
 end
