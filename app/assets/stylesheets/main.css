@@ -65,7 +65,8 @@ h6 {
 }
 
 p {
-  color: #919da8;
+  color: rgba(30,38,51,0.9);
+  /*color: #919da8; test*/
   font-size: 14px;
   line-height: 22px;
 }
@@ -203,7 +204,9 @@ a:hover {
 }
 
 .navbar-inverse {
-  background-color: #1E2633;
+  /*background-color: #1E2633;*/
+  background-color: rgba(255,255,255,0.8);
+  
   border-color: transparent;
 }
 
@@ -386,6 +389,10 @@ section {
 
 .dark-bg {
   background: #1E2633;
+}
+
+.light-bg {
+  background: #eee;
 }
 
 #main {
@@ -596,11 +603,21 @@ section {
 	-o-animation-delay: 1.5s;
 }
 
-
 .col-link:hover i  {
   color: #6F7D8C;
   background: #323949;
   border: 2px solid #333a4b;
+  padding-top: 50px;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+.col-link-2:hover i  {
+  color: #FF8000;
+  background: white;
+  border: 2px solid #FF8000;
   padding-top: 50px;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
@@ -1208,6 +1225,8 @@ ul.ads.list-inline {
     width: 100%;
 }
 
+#featured-clients .img-responsive { max-width: 130px; max-height: 78px; }
+
 /* ==========================================================================
    Mobile styles
    ========================================================================== */
@@ -1286,4 +1305,23 @@ ul.ads.list-inline {
 
 
 
+.image-text {
+    position:relative;
+}
+.image-text .text {
+    background-color: rgba(255,128,0,0.8);
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
 
+.image-text .text h3 {  color: white; padding-left: 5px; }
+
+#latest-work h1 { color: #1E2633; }
+
+
+/**/
+
+.main-description h3 { font-weight: bold; color: #FF8000; }
+.main-description h3.why { padding: 10px; background-color: #FF8000; color: white; font-weight: normal; }

@@ -2,23 +2,23 @@
    Red styles
    ========================================================================== */
 .color {
-  color: #17b3f4;
+  color: #FF8000;
 }
 
 hr {
-  background: none repeat scroll 0 0 #17b3f4;
+  background: none repeat scroll 0 0 #FF8000;
   border: 0 none;
   height: 5px;
   width: 50px;
 }
 
 a.more {
-  color: #17b3f4;
+  color: #FF8000;
   text-decoration: none; 
 }
 
 a:hover.more {
-  color: #17b3f4;
+  color: #FF8000;
 }
 
 
@@ -26,13 +26,13 @@ a:hover.more {
 /* ---------------  Buttons ----------------- */
 
 .btn-primary {
-  background-color: #17b3f4;
+  background-color: #FF8000;
   border-color: rgba(0, 0, 0, 0);
   color: #FFFFFF;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
-  background-color: #139fda;
+  background-color: #dc6b4b;
   border-color: transparent;
   color: #FFFFFF;
   -webkit-transition: all 0.35s ease-in-out;
@@ -44,15 +44,24 @@ a:hover.more {
 
 /* --------------- Main Styles ----------------- */
 .color-bg {
-  background: #17b3f4;
+  background: rgba(30,38,51,0.9);
 }
 
 /* --------------- Home page Icons ----------------- */
 .home-icons {
-  color: #17b3f4;
+  color: #FF8000;
   width: 160px;
   height: 160px;
-  border: 2px solid #edeef0;
+  border: 2px solid #FF8000;
+  border-radius: 80px;
+  padding-top: 50px;
+}
+
+.home-icons-2 {
+  color: white;
+  width: 160px;
+  height: 160px;
+  border: 2px solid white;
   border-radius: 80px;
   padding-top: 50px;
 }
@@ -61,18 +70,18 @@ a:hover.more {
 
 /* --------------- Latest Work Icons ----------------- */
 .thumbs a {
-	background-color: #17b3f4;
+  background-color: #FF8000;
 }
 
 .list-inline.filter > li:hover {
-    background: none repeat scroll 0 0 #17b3f4;
+    background: none repeat scroll 0 0 #FF8000;
     color: #FFFFFF;
 }
 
 
 /* --------------- Latest News ----------------- */
 .news-link:hover .news-box {
-  border-left: 6px solid #17b3f4;
+  border-left: 6px solid #FF8000;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
@@ -82,33 +91,33 @@ a:hover.more {
 
 /* --------------- Testimonial Carousel ----------------- */
 .carousel-control {
-    color: #17b3f4;
+    color: #FF8000;
     font-size: 30px;
     text-shadow: 0 0px 0px rgba(0, 0, 0, 0.0);
     opacity: 0.5;
 }
 
 .carousel-control:hover, .carousel-control:focus {
-    color: #17b3f4;
+    color: #FF8000;
     opacity: 1;
 }
 
 
 /* --------------- Blog Section ----------------- */
 .blog-meta a {
-  color: #17b3f4;
+  color: #FF8000;
 }
 
 .blog-meta a:hover {
-  color: #139fda;
+  color: #dc6b4b;
 }
 
 .pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
-    background-color: #17b3f4;
+    background-color: #FF8000;
 }
 
 blockquote {
-    border-left: 5px solid #17b3f4;
+    border-left: 5px solid #FF8000;
     margin: 0 0 20px;
     padding: 10px 20px;
 }
@@ -116,21 +125,21 @@ blockquote {
 
 /* --------------- Bottom Section ----------------- */
 .color-box {
-  background: #17b3f4;
+  background: #FF8000;
   padding: 15px 20px 5px 20px;
   margin-bottom: 15px;
 }
 
 .bottom-links li a {
-  color: #17b3f4;
+  color: #FF8000;
 }
 
 .bottom-links li a:hover {
- color: #139fda; 
+ color: #dc6b4b; 
 }
 
 .social-icons li:hover {
-  background: #17b3f4;
+  background: #FF8000;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -140,7 +149,7 @@ blockquote {
 
 /* --------------- Pricing Tables ----------------- */
 .pricing-table.active .headline {
-  background: #17b3f4;
+  background: #FF8000;
 }
 
 
